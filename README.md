@@ -59,7 +59,7 @@ git checkout -b my_new_branch
 module use /g/data/hh5/public/modules
 module load conda/analysis3-unstable
 ```
-Follow [these instructions](http://climate-cms.wikis.unsw.edu.au/Conda#Creating_personal_environments) to set up your conda workspace, particularly the .condarc file in your home directory, and then run
+Follow [these instructions](http://climate-cms.wikis.unsw.edu.au/Conda#Creating_personal_environments) to set up your conda workspace, particularly the .condarc file in your home directory. Make the ~/.condarc file using a text editor (e.g. emacs) in your home directory (copying text on linked nci site) and save it. If on Gadi dont worry about the commands starting ith 'Deactivate...'. Then switch into you \py-WOMBAT directory.  Once inside run
 ```bash
 conda env create -f py-WOMBAT.yml
 ```
